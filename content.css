@@ -19,7 +19,7 @@ body {
 }
 
 #show_size {
-    display: flex;
+    margin-left: 15px;
     justify-content: center;
     align-items: center;
     padding: 12px 0;
