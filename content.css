@@ -1,1 +1,32 @@
+* {
+    box-sizing: border-box;
+    display: block;
+}
 
+body {
+    width: 300px;
+    margin: 0;
+    color: #1f2328;
+    background: #ffffff;
+}
+
+#show {
+    font-size: 11px;
+    color: #656d76;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+#show_size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+#show_size img {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+}
