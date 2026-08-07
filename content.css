@@ -26,7 +26,7 @@ body {
 }
 
 #show_size img {
-    width: 80px;
-    height: 80px;
+    width: 82px;
+    height: 82px;
     object-fit: contain;
 }
