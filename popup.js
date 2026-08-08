@@ -9,8 +9,9 @@ function UpdateFrame() {
         profile.style.borderRadius = '50%';
 
         if (frame_effect.checked) {
+            profile.style.border = 'none';
             profile.style.boxShadow = `
-            0 0 1px #fff, 0 0 2px ${frame_color.value}, 0 0 4px ${frame_color.value}, 0 0 8px ${frame_color.value}, 0 0 14px ${frame_color.value}`;
+            0 0 2px ${frame_color.value}, 0 0 4px ${frame_color.value}, 0 0 8px ${frame_color.value}, 0 0 14px ${frame_color.value}`;
         } else{
             profile.style.boxShadow = 'none';
         }
